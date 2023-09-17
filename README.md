@@ -15,3 +15,6 @@ HTTP GET Request: This method sends data as query parameters in the URL. It's co
 
 # app-05.py
 render HTML page
+
+# app-06.py
+pass data from python to html
