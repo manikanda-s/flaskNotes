@@ -18,3 +18,6 @@ render HTML page
 
 # app-06.py
 pass data from python to html
+
+# app-07.py
+HTTP POST Request: This method is used for sending larger amounts of data or sensitive information. 
