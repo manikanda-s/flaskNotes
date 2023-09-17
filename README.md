@@ -6,3 +6,6 @@ show 'Hello World' on the browser screen
 
 # app-02.py
 set routing - for different endpoint
+
+# app-03.py
+pass dynamic argument through url
