@@ -12,3 +12,6 @@ pass dynamic argument through url
 
 # app-04.py
 HTTP GET Request: This method sends data as query parameters in the URL. It's commonly used for sending small amounts of data.
+
+# app-05.py
+render HTML page
