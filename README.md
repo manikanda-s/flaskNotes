@@ -21,3 +21,6 @@ pass data from python to html
 
 # app-07.py
 HTTP POST Request: This method is used for sending larger amounts of data or sensitive information. 
+
+# app-08.py
+CRUD Operation

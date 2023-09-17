@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - list</title>
+</head>
+<body>
+    <a href="{{url_for('home')}}">Add</a>
+    <table>
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>NAME</th>
+                <th>EDIT</th>
+                <th>DELETE</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for person in names %}
+            <tr>
+                <td>{{person[0]}}</td>
+                <td>{{person[1]}}</td>
+                <td><a href="{{url_for('edit', id=person[0], name=person[1]) }}">edit</a></td>
+                <td><a href="{{url_for('delete', id=person[0])}}">delete</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

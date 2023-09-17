@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - edit</title>
+</head>
+<body>
+    <a href="{{url_for('home')}}">Add</a>
+    <a href="{{url_for('listOfNames')}}">back</a>
+<br><hr>
+
+    <form action="{{url_for('edit')}}" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" value="{{name}}">
+        <input type="text" name="id" value="{{id}}" style="display: none;">
+        <button type="submit">Update</button>
+    </form>
+
+
+</body>
+</html>
