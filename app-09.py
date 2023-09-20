@@ -27,12 +27,12 @@ students = [
 
 @app.route('/')
 def get_all():
-    return jsonify(students)
+    return jsonify(students), 200
 
 @app.route('/<int:id>')
 def get_one(id):
     student = students[id]
-    return jsonify(student)
+    return jsonify(student), 200
 
 
 
