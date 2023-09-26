@@ -3,6 +3,7 @@
 # app-01.py
 url - http://127.0.0.1:5000
 show 'Hello World' on the browser screen 
+
 ![1](https://github.com/manikanda-s/flaskNotes/assets/108984646/471c90c6-c228-4ac7-9a68-5ab8a7b4abe3)
 
 
